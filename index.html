@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Number Guessing</h1>
+			<div class="form">
+				<input
+					type="text"
+					id="playersName"
+					placeholder="Please Enter Your name"
+				/>
+				<input type="submit" value="Play" id="playBtn" />
+			</div>
+
+			<p class="welcome"></p>
+
+			<div class="stageDiv" style="display: none">
+				This is stage:<span class="stage"> 1</span> Point:
+				<span class="point" style="text-align: center">0</span>
+			</div>
+
+			<div class="game" style="display: none">
+				<input
+					style="margin-top: 10px"
+					type="number"
+					class="guess"
+					placeholder="Enter your guess here"
+				/>
+				<input type="submit" value="Submit" id="submit" />
+			</div>
+
+			<div class="after"></div>
+
+			<div>
+				<p class="number"></p>
+			</div>
+
+			<div class="gameOver"></div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
