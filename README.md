@@ -1,5 +1,6 @@
 # Replit links:
-https://replit.com/@GeraldUgwunna/NumberGuessing#index.js
+https://replit.com/@GeraldUgwunna/NumberGuessing#index.js  
+
 https://replit.com/@GeraldUgwunna
 
 # Instruction
